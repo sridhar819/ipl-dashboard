@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.result-card {
+  width: 30%;
+  margin: 1%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #0f172a;
+  text-align: center;
+  overflow: auto;
+  padding: 10px;
+  border-radius: 8px;
+  min-height: 35vh;
+  color: white;
+}
+.result-card img {
+  width: 30%;
+  height: 100px;
+}
+
+@media (max-width: 767px) {
+  .result-card {
+    width: 100%;
+  }
+}

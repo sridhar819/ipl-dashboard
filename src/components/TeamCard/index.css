@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.team-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 180px;
+}
+.link {
+  text-decoration: none;
+  border-radius: 13px;
+  color: white;
+  background-color: #475569;
+  width: 45%;
+  border: 2px solid #475569;
+  margin: 1%;
+}
+.image {
+  width: 25%;
+}
+.team-card h2{
+  font-weight: 300;
+}

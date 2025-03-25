@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.latest-match-card {
+  background-color: #1e293b;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  color: #ffffff;
+  padding: 13px;
+  min-height: 30vh;
+  flex-wrap: wrap;
+  border-radius: 9px;
+}
+.subcard-2 {
+  width: 20%;
+}
+.card-2image {
+  width: 100%;
+}
+.subcard-1 {
+  width: 40%;
+  padding: 10px;
+}
+.date {
+  font-size: 20px;
+}
+.subcard-1 p {
+  margin-bottom: 15px;
+  margin-top: 22px;
+}
+.subcard-1 h2 {
+  margin-bottom: 17px;
+}
+.subcard-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  width: 40%;
+  justify-content: space-evenly;
+}
+@media (max-width: 767px) {
+  .latest-match-card {
+    align-items: center;
+  }
+  .card-2image {
+    width: 30%;
+  }
+  .subcard-1 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .subcard-2 {
+    width: 100%;
+  }
+  .subcard-3 {
+    width: 100%;
+    align-items: start;
+    margin-top: 17px;
+  }
+}
